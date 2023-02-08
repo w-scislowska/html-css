@@ -1,0 +1,349 @@
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* CSS for header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.header .logo {
+    font-size: 35px;
+    font-family: 'Quicksand', bold;
+    color: #000;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.nav-items {
+    font-family: 'Quicksand';
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5f5f5;
+    margin-right: 20px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #000;
+    padding: 35px 20px;
+}
+
+/* CSS for main element */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 520px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://sport.universityofgalway.ie/admin/uploads/images/organisation/profile/Tennis1_1658749090_th.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.intro h1 {
+    font-size: 60px;font-family: 'Sora';
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.intro p {
+    font-family: 'Sora';
+    font-size: 30px;
+    color: #d1d1d1;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+
+.intro a {
+    background-color: #f4a6d3;
+    color: #f31395;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Sora';
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+}
+
+.purpose {
+    font-family: 'Quicksand';
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 80px;
+}
+
+.purpose p1 {
+    font-family: 'Quicksand';
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.achievements .work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.achievements .work i {
+    width: fit-content;
+    font-size: 50px;
+    color: #333333;
+    border-radius: 50%;
+    border: 2px solid #333333;
+    padding: 12px;
+}
+
+.achievements .work .work-heading {
+    font-size: 20px;
+    color: #333333;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.achievements .work .work-text {
+    font-size: 15px;
+    color: #585858;
+    margin: 10px 0;
+}
+
+.about-me {
+    font-family: 'Sora';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+    border-top: 2px solid #eeeeee;
+}
+
+.about-me img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-me-text h2 {
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.about-me-text p {
+    font-size: 15px;
+    color: #585858;
+    margin: 10px 0;
+}
+
+/* CSS for footer */
+.footer {
+    font-family: 'Quicksand';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(168, 212, 137);
+    padding: 5px 50px;
+}
+
+.footer .copy {
+    color: #fff;
+}
+
+.bottom-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.bottom-links .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.bottom-links .links a {
+    text-decoration: none;
+    color: #f31395;
+    padding: 10px 20px;
+}
+
+.bottom-links .links span {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+/* CSS element for sign up */
+* {
+    margin: 0
+}
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 520px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%), url("https://attractas.ie/wp-content/uploads/2021/04/Return_of_Sports.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container p {
+    color: white;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    margin: 50px;
+}
+
+.container h1 {
+    color: white;
+    font-family: sans-serif;
+    margin: 20px;
+}
+  
+.registartion-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    color: #f31395;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: #f4a6d3;
+    padding: 20px;
+}
+  
+.registartion-form input,
+.registartion-form select,
+.registartion-form textarea {
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+  
+.registartion-form input:focus,
+.registartion-form textarea:focus {
+    box-shadow: 3px 3px 10px rgba(168, 212, 137), -3px -3px 10px rgb(224, 224, 224);
+}
+  
+.registartion-form .submit {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 20px;
+    color: #f31395;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+  
+.registartion-form .submit:hover {
+    box-shadow: 3px 3px 6px rgb(255, 214, 176);
+}
+
+/* CSS for clubs page */
+.clubs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 520px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.clubs h1 {
+    font-size: 40px;
+    font-family:'Sora';
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.clubs p {
+    font-family: 'Sora';
+    font-size: 20px;
+    color: #d1d1d1;
+    margin: 20px 0px;
+}
+
+.clubs a {
+    background-color: #f4a6d3;
+    color: #f31395;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Sora';
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+}
+
+.archery {
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("http://www.boundless.org/wp-content/uploads/2017/01/ThinkstockPhotos-516014753.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.judo {
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://www.kcpinternational.com/wp-content/uploads/2011/09/50208542308_12222e860b_c.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.tennis {
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://upload.wikimedia.org/wikipedia/commons/9/94/2013_Australian_Open_-_Guillaume_Rufin.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.basketball {
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://www.irishexaminer.com/cms_media/module_img/5619/2809926_2_seoimage4x3_inpho_01247745_1_.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.kayaking {
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://outsider.ie/wp-content/uploads/2018/05/River-Barrow-Pure-Adventures-800x600.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.soccer {
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://cdn.britannica.com/51/190751-050-147B93F7/soccer-ball-goal.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
